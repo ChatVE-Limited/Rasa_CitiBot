@@ -1,0 +1,16 @@
+# Rasa-specific files
+models/
+.rasa/
+*.db
+*.lock
+logs/
+
+# Virtual environment
+rasa_env/
+
+# Byte-compiled Python files
+__pycache__/
+
+*.env
+
+.vscode/

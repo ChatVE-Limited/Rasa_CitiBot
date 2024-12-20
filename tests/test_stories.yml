@@ -1,0 +1,56 @@
+#### This file contains tests to evaluate that your bot behaves as expected.
+#### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/testing-your-assistant
+version: "3.1"
+stories:
+  - story: Test Rights and Responsibilities flow
+    steps:
+      - intent: ask_fundamental_human_rights
+      - action: utter_fundamental_human_rights
+
+      - intent: ask_women_rights
+      - action: utter_women_rights
+
+  - story: Test Government Structure flow
+    steps:
+      - intent: ask_federal_government
+      - action: utter_federal_government
+
+      - intent: ask_local_government
+      - action: utter_local_government
+
+  - story: Test Voting flow
+    steps:
+      - intent: ask_voter_registration
+      - action: utter_voter_registration
+
+      - intent: ask_voters_card
+      - action: utter_voters_card
+
+  - story: Test Constitution flow
+    steps:
+      - intent: ask_constitution_introduction
+      - action: utter_constitution_introduction
+
+      - intent: ask_constitution_rights
+      - action: utter_constitution_rights
+
+  - story: Test Civic Issues flow
+    steps:
+      - intent: ask_economic_policies
+      - action: utter_economic_policies
+
+      - intent: ask_security_concerns
+      - action: utter_security_concerns
+
+  - story: Test Elections flow
+    steps:
+      - intent: ask_election_calendar
+      - action: utter_election_calendar
+
+      - intent: ask_candidates_and_parties
+      - action: utter_candidates_and_parties
+
+  - story: Test fallback to GPT
+    steps:
+      - intent: nlu_fallback
+      - action: action_default_gpt_response
