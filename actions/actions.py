@@ -27,10 +27,10 @@ class ActionDefaultGPTResponse(Action):
             response = openai.chat.completions.create(
                 model="gpt-4o-mini",
                 messages=[
-                    {"role": "system", "content": "You are an expert on Nigerian topics and should focus on Nigeria in all your answers."},
+                    {"role": "system", "content": "You are an expert on Nigerian topics and should focus on Nigeria in all your answers. Summarize the response in under 300 words:"},
                     {"role": "user", "content": user_message}
                 ],
-                max_tokens=300
+                max_tokens=350
             )
             response_dict = response.model_dump()
 
