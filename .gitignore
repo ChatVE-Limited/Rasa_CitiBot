@@ -1,5 +1,4 @@
 # Rasa-specific files
-models/
 .rasa/
 *.db
 *.lock
