@@ -42,14 +42,14 @@ Start the ssh-agent in the background
 $ eval "$(ssh-agent -s)"
 > Agent pid 59566
 ```
-Depending on your environment, you may need to use a different command. For example, you may need to use root access by running ```bash sudo -s -H ``` before starting the ssh-agent, or you may need to use exec ssh-agent bash or exec ```bash ssh-agent zsh ```  to run the ssh-agent.
-If you're using macOS Sierra 10.12.2 or later, you will need to modify your ```bash ~/.ssh/config ``` file to automatically load keys into the ssh-agent and store passphrases in your keychain.
-- First, check to see if your ```bash ~/.ssh/config ``` file exists in the default location.
+Depending on your environment, you may need to use a different command. For example, you may need to use root access by running ```sudo -s -H``` before starting the ssh-agent, or you may need to use exec ssh-agent bash or exec ```ssh-agent zsh```  to run the ssh-agent.
+If you're using macOS Sierra 10.12.2 or later, you will need to modify your ```~/.ssh/config``` file to automatically load keys into the ssh-agent and store passphrases in your keychain.
+- First, check to see if your ``` ~/.ssh/config ``` file exists in the default location.
 - If the file doesn't exist, create the file.
 ```bash
 $ touch ~/.ssh/config
 ```
-- Open your ```bash ~/.ssh/config ``` file, then modify the file to contain the following lines. If your SSH key file has a different name or path than the example code, modify the filename or path to match your current setup.
+- Open your ```~/.ssh/config``` file, then modify the file to contain the following lines. If your SSH key file has a different name or path than the example code, modify the filename or path to match your current setup.
 ```bash
   Host github.com
   AddKeysToAgent yes
