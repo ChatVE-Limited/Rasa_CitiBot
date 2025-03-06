@@ -65,13 +65,13 @@ ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 ### 2. Create and Activate a Virtual Environment 
 For Windows:
 ```bash  
-python -m venv env
-env\Scripts\activate
+python -m venv rasa_env
+rasa_env\Scripts\activate
 ```
 For macOS/Linux:
 ```bash  
-python3 -m venv env
-source env/bin/activate
+python3 -m venv rasa_env
+source rasa_env/bin/activate
 ```
 Once activated, you should see the virtual environment name in your terminal prompt.
 Install Required Dependencies:
