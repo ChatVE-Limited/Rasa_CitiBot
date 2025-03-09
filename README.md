@@ -11,7 +11,7 @@ This project implements a Rasa-powered conversational AI bot designed to interac
 - **Rasa Framework**  
 - **Twilio Messaging Service**  
 - **OpenAI API (GPT)**  
-- **Python** : 3.10 (coz it's an open-source rasa project)  
+- **Python** : 3.10 (because it's an open-source rasa project)  
 
 ## Installation and Setup  
 
@@ -96,6 +96,11 @@ OPENAI_API_KEY=<your_openai_api_key>
 ```  
 
 ### 5. Run Rasa Locally
+Build the Rasa Model:
+```bash
+rasa train
+```
+
 Start the Rasa server:  
 ```bash  
 rasa run --endpoints endpoints.local.yml --enable-api
