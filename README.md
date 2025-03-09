@@ -11,7 +11,7 @@ This project implements a Rasa-powered conversational AI bot designed to interac
 - **Rasa Framework**  
 - **Twilio Messaging Service**  
 - **OpenAI API (GPT)**  
-- **Python**  
+- **Python** : 3.10 (coz it's an open-source rasa project)  
 
 ## Installation and Setup  
 
