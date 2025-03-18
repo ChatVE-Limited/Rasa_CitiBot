@@ -126,8 +126,8 @@ python-multipart==0.0.9
 pytz==2024.2
 PyYAML==6.0.2
 pyzmq==26.2.0
-rasa==3.6.21
-rasa-sdk==3.6.2
+rasa==3.6.0
+rasa-sdk==3.6.0
 referencing==0.35.1
 regex==2024.5.15
 requests==2.32.3
