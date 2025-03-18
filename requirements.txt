@@ -128,7 +128,7 @@ randomname==0.1.5
 rasa==3.6.21
 rasa-sdk==3.6.2
 redis==4.6.0
-referencing==0.30.0
+referencing==0.31.0
 regex==2022.10.31
 requests==2.32.3
 requests-oauthlib==2.0.0
