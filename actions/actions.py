@@ -9,6 +9,9 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 import os
 from dotenv import load_dotenv
+import logging
+
+logger = logging.getLogger(__name__)
 
 
 class ActionDefaultGPTResponse(Action):
@@ -39,6 +42,8 @@ class ActionDefaultGPTResponse(Action):
             dispatcher.utter_message(text=gpt_reply)
 
         except Exception as e:
+            error_message = f"Error: {e}"
+            logger.error(error_message)
             dispatcher.utter_message(
                 text="I'm sorry, I couldn't fetch an answer at the moment. Please try again later."
             )

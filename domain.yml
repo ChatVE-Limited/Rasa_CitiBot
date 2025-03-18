@@ -144,13 +144,9 @@ responses:
 
         The federal government of Nigeria is composed of three distinct branches: the executive, the legislative, and the judicial, whose powers are vested and bestowed upon by the Constitution of the Federal Republic of Nigeria.
         The Executive: The executive tier of government is one of the three branches of government, responsible for implementing and enforcing laws and policies.
-        The President of Nigeria heads the executive branch at the national level. The President is supported by the Vice President, ministers, and various government agencies and departments. 
-        The Legislature: Nigeria operates a Bi-cameral legislature made up of two Independent Chambers; the Senate and the House of Representatives. The Senate, referred to as the Red Chamber, comprises 109 Senators representing three Senatorial Districts of each of the 36 States of the Federation. It is led by the Senate President and his Deputy (President of the Senate and Deputy President of the Senate) as well as eight Principal Officers namely Senate Leader and his Deputy, Minority Leader and his Deputy, Chief Whip and his Deputy, Minority Whip and his Deputy. 
-        The House of Representatives also known as the Green Chamber is made up of 360 Federal Representatives. Each Member represents one Federal Constituency of Nigeria. The Green Chamber is led by the Speaker and assisted by the Deputy Speaker along with eight Principal Officers that include Majority Leader, Deputy Majority Leader, Minority Leader, Deputy Minority Leader, Chief Whip, Deputy Chief Whip, Minority Whip and Deputy Minority Whip. 
+        The Legislature: Nigeria operates a Bi-cameral legislature made up of two Independent Chambers; the Senate and the House of Representatives.
         The Judiciary: The Supreme Court of Nigeria (SCN) is the highest court in Nigeria. The Supreme Court is composed of the Chief Justice of Nigeria and not more than 21 justices.
-        An appellate court, commonly called a court of appeal(s), appeal court, court of second instance or second instance court, is any court of law that is empowered to hear a case upon appeal from a trial court or other lower tribunal. 
-        The Federal High Court of Nigeria (FHC) is one the Federal superior Courts of record in Nigeria. The Federal High Court is composed of the Chief Judge and judges as may be prescribed by an Act of the National Assembly.
-
+       
   utter_state_government:
     - text: |
         State Government:
