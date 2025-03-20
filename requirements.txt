@@ -377,10 +377,6 @@ python-multipart==0.0.20
     # via -r requirements.in
 python-telegram-bot==22.0
     # via rasa-core
-pywin32==310
-    # via
-    #   jupyter-core
-    #   plumbum
 pyyaml==6.0.2
     # via
     #   huggingface-hub
