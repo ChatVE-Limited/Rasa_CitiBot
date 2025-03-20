@@ -1,2 +1,2 @@
 action_endpoint:
- url: https://rasacitizenbot-fegyfjf6f9anctev.canadacentral-01.azurewebsites.net:5055/webhook
+ url: https://rasa-citibot-action-server.onrender.com
