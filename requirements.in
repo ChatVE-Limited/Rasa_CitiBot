@@ -1,4 +1,4 @@
-absl-py>=1.0.0
+rasa>=3.0.0
 annotated-types
 jsonschema-specifications
 openai
@@ -10,7 +10,7 @@ pyproject-toml
 python-dotenv
 python-multipart
 pyzmq
-rasa
+pyyaml
 shapely
 smmap
 sse-starlette
