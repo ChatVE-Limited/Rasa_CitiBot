@@ -375,8 +375,6 @@ pytz==2022.7.1
     #   apscheduler
     #   rasa
     #   twilio
-pywin32==310
-    # via portalocker
 pyyaml==6.0.2
     # via
     #   -r requirements.in
