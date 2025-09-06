@@ -92,7 +92,7 @@ Set up sensitive credentials like Twilio keys, OpenAI keys, and others in a `.en
 TWILIO_ACCOUNT_SID=<your_account_sid>  
 TWILIO_AUTH_TOKEN=<your_auth_token>  
 TWILIO_PHONE_NUMBER=whatsapp: <your_twilio_phone_number>  
-OPENAI_API_KEY=<your_openai_api_key>  
+OPENROUTER_API_KEY=<your_openai_api_key>  
 ```  
 
 ### 5. Run Rasa Locally
