@@ -1,9 +1,13 @@
-FROM rasa/rasa-sdk:3.6.2
+FROM python:3.10
 
 WORKDIR /app
 
-COPY . /app
+COPY requirements.txt .
 
 RUN pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+EXPOSE 5055
 
 CMD ["rasa", "run", "actions", "--port", "5055"]
