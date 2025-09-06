@@ -131,12 +131,13 @@ To expose your Rasa bot to the internet and connect it to Twilio:
 4. Copy the HTTPS forwarding URL (e.g., `https://<your-ngrok-url>.ngrok.io`).  
 
 ### 6. Configure Twilio Webhook  
-1. Log in to your Twilio console and navigate to **Messaging** > **Phone Numbers**.  
-2. Select the Twilio phone number you want to use.  
-3. Under the **Messaging** section, add the following webhook URL to **A MESSAGE COMES IN**:  
+1. Log in to your Twilio console and navigate to **Develop** > **Messaging** > **Senders** > **Whatsapp senders**.  
+2. Select the Twilio phone number you want to use and click on **Edit Sender**.  
+3. Under the **Messaging Endpoint Configuration** section, add the following webhook URL to **Webhook URL for incoming messages - Optional**:  
    ```
    https://<your-ngrok-url>.ngrok.io/webhooks/twilio/webhook  
-   ```  
+   ```
+4. Scroll to the end of the page and click on **Update Whatsapp Sender**
 
 ### 7. Test the Bot on WhatsApp  
 1. Send a message to your Twilio WhatsApp number.  
